@@ -36,7 +36,7 @@ else
   GITHUB="https://github.com"
 fi
 
-checkout "${GITHUB}/yyuu/pyenv.git"            "${PYENV_ROOT}"
+checkout "${GITHUB}/yyuu/pyenv.git"            "${PYENV_ROOT}/"
 checkout "${GITHUB}/yyuu/pyenv-doctor.git"     "${PYENV_ROOT}/plugins/pyenv-doctor"
 checkout "${GITHUB}/yyuu/pyenv-installer.git"  "${PYENV_ROOT}/plugins/pyenv-installer"
 checkout "${GITHUB}/yyuu/pyenv-update.git"     "${PYENV_ROOT}/plugins/pyenv-update"
